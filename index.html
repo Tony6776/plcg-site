@@ -5,8 +5,83 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="description" content="PLCG — Property Land & Construction Group. Specialist Disability Accommodation construction and refurbishment to NDIS specification. Sydney + Melbourne metro.">
 <meta name="theme-color" content="#1e4d2b">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
 <title>PLCG — SDA Construction & Refurbishment | Property Land & Construction Group</title>
 <link rel="canonical" href="https://plcg.com.au">
+
+<!-- Open Graph (Facebook + LinkedIn previews) -->
+<meta property="og:site_name" content="Property Land & Construction Group">
+<meta property="og:title" content="PLCG — SDA Construction & Refurbishment Specialists">
+<meta property="og:description" content="Specialist Disability Accommodation construction and refurbishment to NDIS specification. Sydney + Melbourne metro. Licensed builder, HBCF cover, 6-year warranty.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://plcg.com.au">
+<meta property="og:image" content="https://plcg.com.au/og-cover.svg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="en_AU">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="PLCG — SDA Construction & Refurbishment Specialists">
+<meta name="twitter:description" content="Specialist Disability Accommodation construction and refurbishment to NDIS specification. Sydney + Melbourne metro.">
+<meta name="twitter:image" content="https://plcg.com.au/og-cover.svg">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "GeneralContractor",
+  "name": "Property Land & Construction Group",
+  "alternateName": "PLCG",
+  "url": "https://plcg.com.au",
+  "description": "Specialist Disability Accommodation construction and refurbishment to NDIS specification, serving Sydney and Melbourne metropolitan areas.",
+  "areaServed": [
+    {"@type": "City", "name": "Sydney"},
+    {"@type": "City", "name": "Melbourne"}
+  ],
+  "knowsAbout": ["Specialist Disability Accommodation", "NDIS construction", "SDA refurbishment", "Disability housing"],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Homelander",
+    "url": "https://sdabyhomelander.com.au"
+  },
+  "potentialAction": {
+    "@type": "ContactAction",
+    "name": "Request Quote",
+    "target": "https://plcg.com.au/#contact"
+  }
+}
+</script>
+
+<!-- Google Analytics 4 (shared Homelander group property — confirm/swap ID) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-PR9T9TVE3M"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-PR9T9TVE3M', {
+  send_page_view: true,
+  cookie_flags: 'SameSite=None;Secure',
+  custom_map: {dimension1: 'brand'}
+});
+gtag('set', {brand: 'plcg.com.au'});
+</script>
+
+<!-- Meta Pixel (Homelander group shared pixel) -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1152362699553699');
+fbq('trackSingle', '1152362699553699', 'PageView', {brand: 'plcg.com.au'});
+</script>
+<noscript><img height="1" width="1" style="display:none" alt=""
+src="https://www.facebook.com/tr?id=1152362699553699&ev=PageView&noscript=1&brand=plcg.com.au"/></noscript>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='10' fill='%231e4d2b'/><text x='32' y='42' font-size='24' font-weight='700' text-anchor='middle' fill='white' font-family='Arial'>P</text></svg>">
 <style>
 :root{--brand:#1e4d2b;--brand-dark:#163a20;--accent:#2d8048;--ink:#1a1d24;--muted:#5f6770;--bg:#fafbfc;--card:#fff;--border:#e3e6ea}
@@ -329,7 +404,6 @@ const form = document.getElementById('quoteForm');
 const msg = document.getElementById('formMsg');
 const btn = document.getElementById('submitBtn');
 
-// Capture form_progress on field-blur for email/phone (partial recovery wired)
 ['email','phone'].forEach(id=>{
   document.getElementById(id).addEventListener('blur', e=>{
     if(!e.target.value) return;

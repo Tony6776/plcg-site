@@ -1,0 +1,11 @@
+# robots.txt for PLCG — Property Land & Construction Group
+# https://plcg.com.au
+
+User-agent: *
+Allow: /
+
+# Disallow admin / API paths
+Disallow: /api/
+Disallow: /admin/
+
+Sitemap: https://plcg.com.au/sitemap.xml

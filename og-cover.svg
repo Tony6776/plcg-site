@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1e4d2b"/>
+      <stop offset="100%" stop-color="#163a20"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <g transform="translate(80,140)">
+    <rect x="0" y="0" width="120" height="120" rx="20" fill="#2d8048"/>
+    <text x="60" y="86" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" text-anchor="middle" fill="#ffffff">P</text>
+  </g>
+  <text x="80" y="340" font-family="Arial,Helvetica,sans-serif" font-size="56" font-weight="700" fill="#ffffff">PLCG</text>
+  <text x="80" y="395" font-family="Arial,Helvetica,sans-serif" font-size="32" font-weight="500" fill="#cfe2d5">Property Land &amp; Construction Group</text>
+  <text x="80" y="465" font-family="Arial,Helvetica,sans-serif" font-size="34" font-weight="600" fill="#ffffff">SDA Construction &amp; Refurbishment Specialists</text>
+  <text x="80" y="510" font-family="Arial,Helvetica,sans-serif" font-size="22" font-weight="400" fill="#9ec3aa">Sydney + Melbourne metro &#xb7; Licensed builder &#xb7; HBCF cover &#xb7; 6-yr warranty</text>
+  <rect x="80" y="555" width="240" height="4" fill="#2d8048"/>
+  <text x="1120" y="595" font-family="Arial,Helvetica,sans-serif" font-size="18" fill="#9ec3aa" text-anchor="end">plcg.com.au</text>
+</svg>
